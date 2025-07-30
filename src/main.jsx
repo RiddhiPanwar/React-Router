@@ -9,6 +9,7 @@ import About from './components/About/About.jsx'
 import Home from './components/Home/Home.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import User from './components/User/User.jsx'
+// import Github from './components/Github/Github.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,11 @@ const router = createBrowserRouter([
       {
         path: "User/:userid",
         element: <User />
-      }
+      },
+      //  {
+      //   path: "github",
+      //   element: <Github />
+      // }
     ]
   }
 ])
